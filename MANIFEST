@@ -1,0 +1,10 @@
+lib/Gtk3/WebKit.pm
+Makefile.PL
+MANIFEST
+MANIFEST.SKIP
+README
+t/webkit.t
+COPYING
+Changes
+examples/browser.pl
+META.yml                                 Module meta-data (added by MakeMaker)
