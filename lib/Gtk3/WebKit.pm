@@ -41,7 +41,7 @@ use base 'Exporter';
 
 use Glib::Object::Introspection;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 
 use constant {
@@ -417,7 +417,7 @@ Emmanuel Rodriguez E<lt>potyl@cpan.orgE<gt>.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2011 by Emmanuel Rodriguez.
+Copyright (C) 2011, 2012 by Emmanuel Rodriguez.
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms of:

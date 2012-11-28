@@ -3,7 +3,6 @@ use warnings;
 
 use ExtUtils::MakeMaker;
 
-use Cwd;
 use File::Spec;
 use Data::Dumper;
 
@@ -19,6 +18,7 @@ sub main {
 
 		PREREQ_PM     => {
 			'Glib::Object::Introspection' => 0,
+			'Gtk3'                        => 0,
 		},
 		PREREQ_FATAL  => 1,
 
