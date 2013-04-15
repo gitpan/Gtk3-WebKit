@@ -41,7 +41,7 @@ use base 'Exporter';
 
 use Glib::Object::Introspection;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 
 use constant {
@@ -405,6 +405,22 @@ sub import {
 }
 
 1;
+
+=head1 INSTALLATION
+
+=head2 "Headless" Debian based systems (inc Ubuntu)
+
+If you are running an X Server (desktop environment) then you should be fine.
+If you are trying to install this on a "headless" server, then you will need a
+framebuffer display to take the place of the X server.
+
+The xvfb-run command can do this for you.
+
+With Ubuntu 12.04 LTS, you'll need these (or more recent) extra deb packages:
+
+    xvfb libgirepository1.0-dev pkg-config libgtk-3-dev libglib2.0-dev libglib2.0-0 gir1.2-webkit-3.0
+
+At which point everything should "just work".
 
 =head1 BUGS
 
