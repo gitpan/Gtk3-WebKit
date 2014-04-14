@@ -1,27 +1,19 @@
---- #YAML:1.0
-name:               Gtk3-WebKit
-version:            0.05
-abstract:           WebKit bindings for Perl
+---
+abstract: 'WebKit bindings for Perl'
 author:
-    - Emmanuel Rodriguez <potyl@cpan.org>
-license:            perl, lgpl
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
+  - 'Emmanuel Rodriguez <potyl@cpan.org>'
 build_requires:
-    ExtUtils::MakeMaker:  0
-requires:
-    Glib::Object::Introspection:  0
-    Gtk3:                 0
-resources:
-    bucktracker:  https://github.com/potyl/perl-Gtk3-WebKit/issues
-    homepage:     https://github.com/potyl/perl-Gtk3-WebKit
-    repository:   https://github.com/potyl/perl-Gtk3-WebKit
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.57_05
+  Test::NeedsDisplay: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300034, CPAN::Meta::Converter version 2.131560'
+license: lgpl
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Gtk3-WebKit
+requires:
+  Glib::Object::Introspection: 0
+  Gtk3: 0
+version: 0.06

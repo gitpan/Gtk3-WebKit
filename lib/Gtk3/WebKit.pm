@@ -1,4 +1,7 @@
 package Gtk3::WebKit;
+{
+  $Gtk3::WebKit::VERSION = '0.06';
+}
 
 =head1 NAME
 
@@ -40,8 +43,6 @@ use strict;
 use base 'Exporter';
 
 use Glib::Object::Introspection;
-
-our $VERSION = '0.05';
 
 
 use constant {
